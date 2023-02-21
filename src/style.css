@@ -1,6 +1,61 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body,
+#app {
+    min-height: 100vh;
+    min-width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+#app {
+    background-color: #4158d0;
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#app h2 {
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 27px;
+    /* text-transform:; */
+}
+
+.wrapper {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.wrapper textarea {
+    border-radius: 20px;
+    padding: 28px 24px 20px 24px;
+    resize: none;
+    border: none;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    font-size: 22px;
+}
+
+.wrapper textarea:focus {
+    outline: none;
+    box-shadow: 0 2px 25px 18px #ffffff47;
+    transition: 0.5s;
+}
+
+.wrapper textarea::-webkit-scrollbar{
+  width: 0px;
+}
