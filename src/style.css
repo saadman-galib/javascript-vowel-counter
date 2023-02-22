@@ -56,6 +56,17 @@ body,
     transition: 0.5s;
 }
 
-.wrapper textarea::-webkit-scrollbar{
-  width: 0px;
+.wrapper textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+.result {
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+    background-color: #151c3fdb;
+    margin-bottom: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    box-shadow: 0 0 25px 18px #6572b33d;
 }
